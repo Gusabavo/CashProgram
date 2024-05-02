@@ -12,14 +12,12 @@ namespace CashProgram
         public int Cash;
 
         /// <sumary>
-        /// 
         /// Writes my name and how much I have into the console.
-        /// 
         /// </sumary>
 
         public void WriteMyInfo()
         {
-            Console.WriteLine(Name + "has" + Cash + "bucks.");
+            Console.WriteLine(Name + " has " + Cash + " bucks.");
         }
         /// <summary>
         /// Give part of my money, taking it from my wallet (or writing a message on the console if I don't have enough money).
