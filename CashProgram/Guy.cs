@@ -32,12 +32,12 @@ namespace CashProgram
         {
             if (amount <= 0)
             {
-                Console.WriteLine(Name + "says: " + amount + "isn't a valid amount");
+                Console.WriteLine(Name + " says: " + amount + " isn't a valid amount");
                 return 0;
             }
             if (amount > Cash)
             {
-                Console.WriteLine(Name + "says: " + "I don't have enough cash to give you" + amount);
+                Console.WriteLine(Name + " says: " + " I don't have enough cash to give you " + amount);
                 return 0;
             }
             Cash -= amount;
@@ -52,7 +52,7 @@ namespace CashProgram
         {
             if (amount <= 0)
             {
-                Console.WriteLine(Name + "says: " + amount + "isn't an amount I'll take");
+                Console.WriteLine(Name + " says: " + amount + " isn't an amount I'll take");
             }
             else
             {
